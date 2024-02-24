@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*reset de valores*/
+*{margin: 0 auto;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.banner{
+    background-image: url(../Asset/Img/perros\ banner.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+color: red;
+}
+.btn {width: 15%;
+        margin: 0 auto;
+        flex-direction: column;
+           align-items: center;
+       
+         background-color: brown;
+       
+   }
+@media (max-width:1200px){
+    .cont1{
+
+        flex-direction: column;
+        img{width: 100%; object-fit: cover;}
+    }
+   
+}
+
+body{
+    background-color: #E9BA8F;
+    margin: 0 auto;
+}

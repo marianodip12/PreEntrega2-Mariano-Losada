@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda de animales perdidos y en adopción</title>
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Css/css.css">
+</head>
+<body > 
+<div class="container-fluid">
+    <!--Crear un  menu de navegacion con 5 links y un logo /-->
+ <header>
+    <nav class="navbar navbar-expand-lg w-100  bg " >
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="./index.html"><img src="./Asset/Img/Logo.png" alt="lOGO"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100  d-flex justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/mascotas_en_adopcion.html">Mascotas En adopcion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/mascotas_perdidas.html">Mascotas Perdidas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+    <!--El contenido principal de la  pagina se centra en un slider o carrusel  el cual mi idea es tener un banner  con un titulo principal + boton/-->
+    <main  class="main">
+<div class="container-fluid">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active  align-items: center;">
+            <section class="banner text-center  row align-items-center align-middle">
+                <H1>Buscas a tu Mascota</H1>
+                <a class="btn btn-primary" href="/Pages/mascotas_perdidas.html" role="button">Mas Informacion</a>
+               
+            </section>
+          </div>
+          <div class="carousel-item">
+            <img src="/Asset/Img/Baner.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      
+      </div>
+   
+   
+
+<!--Mi idea aqui es  dividir en 2 secciones con 2 subsecciones  donde cada subseccion se componga de una imagen  + titulo + un texto + un boton/-->
+<div class=" container-fluid d-flex container text-center cont1">
+    <section class="tema1 w-100"> 
+        <img src="/Asset/Img/animales extraviado.jfif" alt="" class="w-100 d-flex ">
+    </section>
+    <section class="tema1" >
+        <h2>¿Perdiste a tu Mascota?</h2>
+        <p>
+            En nuestra comunidad, nos preocupamos profundamente por las mascotas perdidas y entendemos lo angustiante que puede ser para sus dueños. Nos esforzamos por reunir a las mascotas perdidas con sus familias amorosas.
+        </p>
+        <p>
+            Si has perdido a tu querida mascota, estamos aquí para ayudarte. Ofrecemos recursos y servicios para facilitar la búsqueda. Desde consejos prácticos hasta la posibilidad de publicar información sobre tu mascota en nuestra plataforma, estamos comprometidos a hacer todo lo posible para ayudarte en este difícil momento.
+        </p>
+        <p>
+            Navega por nuestras secciones para obtener más información sobre cómo proceder si tu mascota se ha extraviado. También puedes explorar las historias de éxito de reuniones entre mascotas perdidas y sus dueños, lo que puede darte esperanza y motivación para seguir buscando.
+        </p>
+        <p>
+            Juntos, como comunidad amante de los animales, trabajaremos para asegurarnos de que cada mascota perdida tenga la oportunidad de regresar a casa y ser recibida con amor y alegría.
+        </p>
+        <a href="/Pages/Mascotas_Perdidas.html" class="btn btn-primary">Mas información</a>
+
+    </section>
+    
+    
+</div>
+
+<div class="container-fluid d-flex container text-center cont1">
+        <section class="w-100">
+            <h2>¿Buscas un amigo peludo?</h2>
+            <p>
+                En nuestra misión de cuidar y proteger a los animales, también promovemos la adopción como una maravillosa forma de brindar un hogar amoroso a mascotas que necesitan uno.
+            </p>
+            <p>
+                Descubre la alegría de darle un hogar a un amigo peludo. Nuestra plataforma ofrece una variedad de animales adorables que buscan ser adoptados. Desde perros y gatos hasta pequeños amigos de otras especies, hay una mascota esperando para convertirse en parte de tu familia.
+            </p>
+            <p>
+                Cada animal tiene su propia historia única, y adoptar no solo brinda un hogar a un ser necesitado, sino que también enriquece tu vida con amor incondicional.
+            </p>
+            <a href="/Pages/Mascotas_en_adopcion.html" class="btn btn-primary d-flex cont1 ">Mas información</a>
+
+        </section>
+        
+    
+    <section class="w-100 d-flex">
+        <img src="/Asset/Img/adopciones.jfif" alt="">
+    </section>
+</div>
+
+</div>
+
+
+</div>
+        
+
+ 
+</main>
+ <!--Crear la seccion footer con 2 secciones en una un logo que redirija a la pagina principal y otra seccion que  sea un menu para la parte inferior la idea es que sea uno a bajo de otro/-->
+ <footer class="footer">
+    
+        <section class="logo_footer">
+            <a href="./Index.html">
+                <img src="/Asset/Img/logo-perro-perdido-mx.png" alt="Logo de un leon">
+            </a>
+        </section>
+        <section class="nav_footer">
+            <nav>
+                <a href="./Index.html">Inicio</a>
+                <a href="./Mascotas_Perdidas.html">Mascotas Perdidas</a>
+                <a href="./Mascotas_en_adopcion.html">Mascotas en adopcion</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./Contacto.html">Contacto</a>
+            
+            </nav>
+        </section>
+    
+</footer>
+<script src="./JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

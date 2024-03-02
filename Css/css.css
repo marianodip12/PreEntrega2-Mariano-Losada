@@ -3,7 +3,7 @@
 
 
 /*reset de valores*/
-*{margin: 0 auto;
+*{
     text-decoration: none;
     font-family:'Montserrat', sans-serif ;
 }
@@ -27,14 +27,37 @@ color: red;
    }
 @media (max-width:1200px){
     .cont1{
-
+        margin-left: 0;
         flex-direction: column;
-        img{width: 100%; object-fit: cover;}
+        img{
+            width: 100%; object-fit: cover;}
     }
-   
+    
 }
 
 body{
     background-color: #E9BA8F;
-    margin: 0 auto;
 }
+.footernav{
+    height: 200px;
+}.hlogo{
+    height: 100px;
+}
+.bg_card{
+    background-color: #E9BA8F;
+    border-color: aliceblue;
+    color: black;
+    h5{
+        font-weight: bold;
+    }
+}
+.btn .btn-primary {
+width: 100%;
+}
+.anav{
+    text-decoration: none;
+} 
+.sin-decoracion {
+    text-decoration: none !important;
+color: black;
+  }

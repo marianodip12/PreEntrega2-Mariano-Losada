@@ -1,40 +1,105 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 /*reset de valores*/
-*{margin: 0 auto;
+*{
     text-decoration: none;
     font-family:'Montserrat', sans-serif ;
 }
 
-.banner{
-    background-image: url(../Asset/Img/perros\ banner.jpg);
+/*color navegacion*/
+.navbar{
+    background-color: khaki;
+}
+
+.footernav{
+    width: 100%;
+    background-color: darkorange;
+  }
+
+
+
+  /*imagenes  banner*/
+.banner {background-image: url(../Asset/Img/perros\ banner.jpg);
     background-size: cover;
     height: 40vh;
     background-position: center;
 background-repeat: no-repeat;
 object-fit: cover;
 color: red;
+    
+
 }
-.btn {width: 15%;
-        margin: 0 auto;
-        flex-direction: column;
-           align-items: center;
+.banner2{background-image: url(..//Asset/Img/banner-adopciones.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+color: red;
+
+}
+/*personalizacion*/
+.btn {
+        
+       margin-bottom: 0.8rem;
        
          background-color: brown;
        
    }
 @media (max-width:1200px){
     .cont1{
-
+        margin-left: 0;
         flex-direction: column;
-        img{width: 100%; object-fit: cover;}
+        img{
+            width: 100%; object-fit: cover;}
     }
-   
+    
 }
 
 body{
     background-color: #E9BA8F;
-    margin: 0 auto;
 }
+.footernav{
+    height: 100%;
+    
+}.hlogo{
+    height: 100px;
+}
+.bg_card{
+    background-color: #E9BA8F;
+    border-color: aliceblue;
+    color: black;
+    h5{
+        font-weight: bold;
+    }
+}
+.btn  {
+width: 100%;
+
+}
+.anav{
+    text-decoration: none;
+} 
+.sin-decoracion {
+    text-decoration: none !important;
+color: black;
+font-weight: bold;
+.sin-decoracion:hover{color: blue;
+    font-weight: bold;}
+  }
+  .arrownav{
+background-color: #eefaa8;
+  }
+  .nav-link{color: black;
+    font-weight: bold;
+
+  }
+  .nav-link:hover{
+    color: blue;
+    font-weight: bold;
+  }
+ 
+
+  

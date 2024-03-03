@@ -83,4 +83,22 @@ width: 100%;
     text-decoration: none;
 } 
 
-  
+.sin-decoracion {
+    text-decoration: none !important;
+color: black;
+font-weight: bold;
+.sin-decoracion:hover{color: blue;
+    font-weight: bold;}
+  }
+  .arrownav{
+background-color: #eefaa8;
+  }
+  .nav-link{color: black;
+    font-weight: bold;
+
+  }
+  .nav-link:hover{
+    color: blue;
+    font-weight: bold;
+  }
+ 

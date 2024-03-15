@@ -1,0 +1,16 @@
+
+
+
+.nav-link {
+    color: $color-black;
+    font-weight: bold;
+
+    &:hover {
+        color:$color-oscuro;
+        font-weight: bold;
+    }
+}
+
+.navbar {
+    background-color: $color-navegacion; 
+}

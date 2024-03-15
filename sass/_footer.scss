@@ -1,0 +1,28 @@
+.footernav {
+    height: 100%;
+}
+.anav {
+    text-decoration: none;
+}
+
+.sin-decoracion {
+    text-decoration: none !important;
+    color:$color-black;
+    font-weight: bold;
+
+    &:hover {
+        color:$color-oscuro;
+        font-weight: bold;
+     }
+    }
+
+    
+.footernav {
+    width: 100%;
+    background-color: $color-footer; 
+    }
+   
+    .hlogo {
+        height: 100px;
+    }
+    

@@ -1,0 +1,11 @@
+{
+  "name": "mariano-losada-1ra-entrega",
+  "version": "1.0.0",
+  "description": "3ra entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

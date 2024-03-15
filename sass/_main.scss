@@ -1,0 +1,33 @@
+@import 'variable';
+@import'mixin';
+.bg_card {
+    background-color: $color-fondo; 
+    border-color: aliceblue;
+    color: black;
+
+    h5 {
+        font-weight: bold;
+    }
+}
+
+.btn {
+    margin-bottom: 0.8rem;
+    background-color: $color-boton;
+    width: 100%;
+}
+.banner {
+    @include banner-style($imagen-banner-1);
+ }
+.banner2 {
+    @include banner-style($imagen-banner-2);
+}
+@media (max-width: 1200px) {
+    .cont1 {
+        margin-left: 0;
+        flex-direction: column;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

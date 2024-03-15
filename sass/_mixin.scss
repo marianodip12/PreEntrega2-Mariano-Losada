@@ -1,0 +1,10 @@
+
+@mixin banner-style($background-image) {
+    background-image: url(#{$background-image});
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color:$color-fuerte;
+}

@@ -26,7 +26,7 @@
         margin-left: 0;
         flex-direction: column;
         img {
-            width: 100%;
+            width:map-get($ancho, ancho-100 );
             object-fit: cover;
         }
     }

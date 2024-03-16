@@ -12,7 +12,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-
+@media (max-width: 767px) {
+    .container {
+      display: grid;
+      grid-template-columns:repeat() 1fr;
+      grid-template-rows: repeat(2, 1fr); 
+    }
+  
+    .container .imgmagic {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .container .h2magic {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
 
 
 

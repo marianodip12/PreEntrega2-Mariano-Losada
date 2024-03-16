@@ -18,10 +18,9 @@
 
     
 .footernav {
-    width: 100%;
+    width: map-get($ancho, ancho-100 );
     background-color: $color-footer; 
     }
-   
     .hlogo {
         height: 100px;
     }
